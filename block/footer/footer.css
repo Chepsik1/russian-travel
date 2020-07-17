@@ -1,0 +1,27 @@
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+
+
+.footer {
+    max-width: 1184px;
+    min-height: 18px;
+    display: grid;
+    grid-template-columns: 50px 57px 94px 86px 106px 2fr;
+    margin: 92px 48px 0;
+    grid-gap: 18px;
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 88px 24px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        grid-template-columns: 1fr;
+        margin: 64px 16px 0;
+        grid-gap: 32px;
+    }
+}

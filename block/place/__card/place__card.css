@@ -1,0 +1,5 @@
+.place__card {
+    display: grid;
+    grid-row-gap: 48px;
+    align-self: end;
+}
