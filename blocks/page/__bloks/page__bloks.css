@@ -1,7 +1,6 @@
 .page__bloks {
     max-width: 1280px;
     margin: auto;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
