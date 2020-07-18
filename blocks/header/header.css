@@ -1,0 +1,11 @@
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__logo/header__logo.css);
+@import url(./__lang/header__lang.css);
+@import url(./__caption/header__caption.css);
+.header {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 136px;
+    margin: auto;
+}

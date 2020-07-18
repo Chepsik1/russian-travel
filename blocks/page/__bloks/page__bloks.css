@@ -1,0 +1,22 @@
+.page__bloks {
+    max-width: 1280px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .papage__bloksge {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page__bloks {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page__bloks {
+        max-width: 425px;
+    }
+}
