@@ -1,4 +1,5 @@
 @import url(./__bloks/page__bloks.css);
 .page {
     background: #2A2C2F;
+    overflow: hidden;
 }
