@@ -1,4 +1,4 @@
-@import url(./no-underline/header__lang-link_no-underline.css);
+@import url(./_active/header__lang-link_active.css);
 .header__lang-link {
     margin: 0 0 0 18px;
     font-family: Inter;
@@ -9,6 +9,7 @@
     /* identical to box height, or 117% */
     text-align: right;
     color: #FFFFFF;
+    text-decoration-line: none;
 }
 
 .header__lang-link:hover {

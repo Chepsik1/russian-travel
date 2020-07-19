@@ -1,16 +1,14 @@
 .footer__links {
-    display: grid;
-    grid-template-columns: 50px 57px 94px 86px 106px 2fr;
-    margin: 92px 48px 0;
-    grid-gap: 18px;
+    display: flex;
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    flex-flow: wrap;
 }
 
 @media screen and (max-width: 425px) {
     .footer__links {
-        grid-template-columns: 1fr;
-        margin: 64px 16px 0;
-        grid-gap: 32px;
+        margin: 0;
+        flex-flow: column;
     }
 }

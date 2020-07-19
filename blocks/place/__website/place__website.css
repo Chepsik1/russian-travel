@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+@media screen and (max-width: 500px) {
+    .place__website {
+        margin: 0 16px 0;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .place__website {
         display: none;

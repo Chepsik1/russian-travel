@@ -4,7 +4,6 @@
 
 @media screen and (max-width: 1024px) {
     .place__text {
-       
         min-height: 440px;
     }
 }
@@ -15,10 +14,10 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .place__text {
         min-height: 320px;
         min-width: 288px;
         margin: 0 16px 0;
-}
+    }
 }
